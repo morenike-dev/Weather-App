@@ -1,12 +1,12 @@
 import WeatherPage from './pages/WeatherPage';
-import darkClouds from './assets/dark-clouds.png';
+import blueClouds from './assets/clouds.png';
 
 export default function App() {
   return (
     <div
       style={{
         minHeight: '100vh',
-        backgroundImage: `url(${darkClouds})`,
+        backgroundImage: `url(${blueClouds})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
