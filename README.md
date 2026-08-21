@@ -35,6 +35,7 @@ The project was created to demonstrate React development, API integration, respo
 ## Project Structure
 
 ```text
+
 Weather-App/
 ├── src/
 │   ├── assets/
