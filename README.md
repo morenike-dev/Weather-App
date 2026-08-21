@@ -1,16 +1,100 @@
-# React + Vite
+```markdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather-App
 
-Currently, two official plugins are available:
+A responsive weather application built with React that retrieves and displays weather information for searched locations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Weather-App is a frontend web application that allows users to search for a location and view the current weather information.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project was created to demonstrate React development, API integration, responsive UI design and asynchronous data handling.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search for locations
+- Current weather information
+- Temperature display 
+- Weather conditions
+- Weather icons
+- Responsive interface
+- Loading states
+- Error handling
+- Weather API integration
+- Dynamic weather background
+
+## Technologies
+
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- Axios
+- Weather API
+
+## Project Structure
+
+```text
+Weather-App/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+└── README.md
+
+API Integration:
+
+The application retrieves weather information from an external weather API.
+
+API credentials are stored using environment variables and are not commited to GitHub.
+
+Deployment:
+
+The application is deployed using Netlify.
+
+Live Application:
+
+https://pied-weather.netlify.app
+
+Screenshots:
+
+![homepage](./images/screenshot.png)
+![weatherPage](./images/screenshot1.png)
+
+What I Learned:
+
+This project helped me develop experience with:
+
+• React components
+• React state management
+• API requests
+• Asynchronous JavaScript
+• Environment variables
+• Error handling
+• Responsive design
+• Dynamic UI updates
+• Git and GitHub
+• Netlify deployment
+
+Future Improvements:
+
+• Extended weather forecasts
+• Geolocation
+• Hourly forecast
+• Multiple saved locations
+• Weather animations
+• Dark / light themes
+
+Author
+
+Morenike Oyenuga
+
+GitHub: https://github.com/morenike-dev
+
+LinkedIn: https://www.linkedin.com/in/morenike-oyenuga-8a9b7a145
