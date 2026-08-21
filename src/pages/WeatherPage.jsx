@@ -109,7 +109,7 @@ export default function WeatherPage() {
 
             {/* Footer */}
             <div style={{ textAlign: 'center', marginTop: '2rem', fontSize: 12, color: '#bbb' }}>
-                © {new Date().getFullYear()} The Weather-App. All rights reserved.
+                © {new Date().getFullYear()} Pied-Weather. All rights reserved.
             </div>
 
         </div>
