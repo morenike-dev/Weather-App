@@ -32,6 +32,16 @@ The project was created to demonstrate React development, API integration, respo
 - Axios
 - Weather API
 
+## Screenshots
+
+### HomePage
+
+![Pied Weather Homepage](images/homepage.png)
+
+### Weather information
+
+![Weather Info](images/weather.png)
+
 ## Project Structure
 
 ```text
@@ -62,11 +72,6 @@ The application is deployed using Netlify.
 Live Application:
 
 https://pied-weather.netlify.app
-
-Screenshots:
-
-![homepage](images/screenshot.png)
-![weatherPage](./images/screenshot1.png)
 
 What I Learned:
 
