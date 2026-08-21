@@ -65,7 +65,7 @@ https://pied-weather.netlify.app
 
 Screenshots:
 
-![homepage](./images/screenshot.png)
+![homepage](images/screenshot.png)
 ![weatherPage](./images/screenshot1.png)
 
 What I Learned:
